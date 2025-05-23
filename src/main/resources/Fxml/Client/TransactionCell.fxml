@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+
+
+<AnchorPane prefHeight="60.0" prefWidth="550.0" styleClass="cell_container"
+            stylesheets="@../../Styles/TransactionCell.css" xmlns="http://javafx.com/javafx/23.0.1"
+            xmlns:fx="http://javafx.com/fxml/1"
+            >
+    <VBox prefHeight="50.0" prefWidth="50.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="14.0"
+          AnchorPane.topAnchor="5.0"/>
+    <Label fx:id="trans_date_lbl" layoutX="64.0" layoutY="22.0" styleClass="trans_date_lbl" text="2025-04-30"
+           AnchorPane.leftAnchor="100.0"/>
+    <Label fx:id="sender_lbl" layoutX="197.0" layoutY="22.0" styleClass="trans_pAddress_lbl" text="Ambroze"
+           AnchorPane.leftAnchor="200.0"/>
+    <Line endY="20.0" layoutX="337.0" layoutY="30.0" startY="2.8" AnchorPane.leftAnchor="300.0"
+          AnchorPane.topAnchor="22.0"/>
+    <Label fx:id="reciever_lbl" layoutX="378.0" layoutY="23.0" styleClass="trans_pAddress_lbl" text="Levi"
+           AnchorPane.leftAnchor="378.0" AnchorPane.topAnchor="23.0"/>
+    <Label fx:id="amount_lbl" layoutX="464.0" layoutY="23.0" styleClass="trans_amount_lbl" text="34,9000"
+           AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="23.0"/>
+</AnchorPane>

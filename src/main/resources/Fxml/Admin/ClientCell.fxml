@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+
+<AnchorPane prefHeight="50.0" prefWidth="750.0" styleClass="client_cell_container"
+            stylesheets="@../../Styles/ClientCell.css" xmlns="http://javafx.com/javafx/23.0.1"
+            xmlns:fx="http://javafx.com/fxml/1"
+            >
+    <HBox prefHeight="40.0" prefWidth="550.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="5.0">
+        <Label fx:id="fName_lbl" text="Naira"/>
+        <Label fx:id="lName_lbl" layoutX="10.0" layoutY="10.0" text="Baker"/>
+        <Label fx:id="pAddress_lbl" layoutX="39.0" layoutY="10.0" text="\@nbaker"/>
+        <Label fx:id="ch_acc_lbl" layoutX="69.0" layoutY="10.0" styleClass="acc_display_lbl" text="232324252"/>
+        <Label fx:id="sav_acc_lbl" layoutX="117.0" layoutY="10.0" styleClass="acc_display_lbl" text="76988754"/>
+        <Label fx:id="date_lbl" layoutX="176.0" layoutY="10.0" text="2025-04-23"/>
+    </HBox>
+    <Button fx:id="delete_btn" layoutX="598.0" layoutY="13.0" mnemonicParsing="false" styleClass="delete_btn"
+            text="Delete" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="12.0"/>
+</AnchorPane>
